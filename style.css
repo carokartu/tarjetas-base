@@ -1,21 +1,27 @@
 
-.seccion-principal 
+body 
 {
-  
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    padding: 20px;
-    margin: 30px;
-    border:  5px solid red;
-    box-sizing: border-box;
-    text-align: center;
+    background-color:#fafafa ;
 }
 
-.amarillo
-{
-    background-color: yellow;
-    width: 50px;
-    height: 50px;
+.principal {
     display: inline-block;
-}
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+ 
+  .caja {
+    color: #2e2e31;
+    padding: 40px 20px;
+    background-color  #fafafa;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    width: 260px;
+    margin: 10px;
+    padding: 30px;
+    
+  }
+  
