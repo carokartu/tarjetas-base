@@ -5,18 +5,21 @@ body
 }
 
 .principal {
-    display: inline-block;
     box-sizing: border-box;
-    display: flex;
+    display: flex ;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
   }
   
  
   .caja {
     color: #2e2e31;
+
     padding: 40px 20px;
-    background-color  #fafafa;
+    background-color : white;
     border: 1px solid #dddfe5;
     border-radius: 8px;
     width: 260px;
@@ -25,3 +28,8 @@ body
     
   }
   
+  img{
+width: 120px;
+height: 120px;
+
+  }
